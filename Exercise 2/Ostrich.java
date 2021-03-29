@@ -1,3 +1,5 @@
+package Bird;
+
 
 public class Ostrich {
 	String Type="Ostrich";
