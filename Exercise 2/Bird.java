@@ -1,11 +1,9 @@
-package Bird;
-
 
 public class Bird {
 
 	public static void main(String[] args) {
 		
-		Eagle a= new Eagle(); 
+		Eagle a= new Eagle(); //create new object name as a.
 		
 		System.out.println("Bird type: "+a.Type);
 		System.out.println("Bird Size: "+a.Size);
@@ -18,7 +16,7 @@ public class Bird {
 		a.PrintLayEggs();
 		System.out.println();
 		
-		Ostrich b= new Ostrich(); 
+		Ostrich b= new Ostrich(); //create new object name as b.
 		
 		System.out.println("Bird type: "+b.Type);
 		System.out.println("Bird Size: "+b.Size);
