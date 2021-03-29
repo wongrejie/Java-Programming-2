@@ -1,3 +1,5 @@
+package Bird;
+
 
 public class Eagle {
 	String Type="Eagle";
