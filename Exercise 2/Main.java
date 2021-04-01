@@ -4,7 +4,8 @@ public class Main {
 public static void main(String[] args) {
 		
 		Bird Eagle= new Bird(); 
-		
+		Fish Salmon= new Fish();
+	
 		System.out.println("Bird type: "+Eagle.Type);
 		System.out.println("Bird Size: "+Eagle.Size);
 		System.out.println("Feathers: "+Eagle.Feathers);
@@ -15,8 +16,6 @@ public static void main(String[] args) {
 		Eagle.PrintSleeps();
 		Eagle.PrintLayEggs();
 		System.out.println();
-		
-		Fish Salmon= new Fish(); 
 		
 		System.out.println("Fish type: "+Salmon.Type);
 		System.out.println("Fish Size: "+Salmon.Size);
