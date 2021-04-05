@@ -3,7 +3,7 @@ package Main;
 public class Bird {
 	
 	String Type,Size,Feathers;
-	int NumOfLegs,LifeSpan,MonthlyExpenses;
+	int NumOfLegs,LifeSpan;
 	double Weight,Height;
 	
 	void printChar(String t,String s,String f,int Ls, int l,double w,double h) {
@@ -27,11 +27,11 @@ public class Bird {
 		System.out.println("Total height for "+n+" bird of this type's height can increase up to "+TotalHeight+"m\n");
 	}
 	
-	void printCalFoodExpenses(String t,int e,int m) {
+	void printCalFoodExpenses(int e,int m) {
 		
 		int totalFoodExpenses= e*m;
 		 		
-			System.out.println(t+"'s food can cost up to "+totalFoodExpenses+" dollar for "+m+" months.");
+			System.out.println("It's food can cost up to "+totalFoodExpenses+" dollar for "+m+" months.");
 			
 	}
 }
