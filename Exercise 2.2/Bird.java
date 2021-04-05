@@ -11,8 +11,8 @@ public class Bird {
 		System.out.println("Size: "+ s);
 		System.out.println("Feathers: "+ f);
 		System.out.println("Number of legs: "+ l);
-		System.out.println("Weight: "+ w);
-		System.out.println("Height: "+ h);
+		System.out.println("Weight: "+ w+"kg");
+		System.out.println("Height: "+ h+"m");
 		
 	}
 	
@@ -23,10 +23,10 @@ public class Bird {
 	 
 	void printCalHeight(double h, int n) {
 		double TotalHeight= h*n;
-		System.out.println("Total height for "+n+" bird of this type is "+TotalHeight+"m");
+		System.out.println("Total height for "+n+" bird of this type is "+TotalHeight+"m\n");
 	}
 	
-	void BirdBehaviour() {
-			System.out.println("this animal eats, sleeps and lay eggs.");
+	void BirdBehaviour(String t) {
+			System.out.println(t+" eats, sleeps and lay eggs.\n");
 	}
 }
