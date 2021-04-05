@@ -8,7 +8,7 @@ public static void main(String[] args) {
 		Bird Eagle= new Bird(); 
 		Bird Ostrich= new Bird();
 		Bird HummingBird= new Bird();
-		Bird Hornbill= new Bird();
+		Bird Parrot= new Bird();
 		
 		System.out.println("====================================");
 		System.out.println("Eagle characteristics");
@@ -16,7 +16,7 @@ public static void main(String[] args) {
 		Eagle.printChar("Bald eagle","Medium","Yes",20,2,6.3,0.9);
 		Eagle.printCalWeight(6.3, 5);
 		Eagle.printCalHeight(0.9, 5);
-		Eagle.BirdBehaviour("Eagle");
+		Eagle.printCalFoodExpenses("Eagle", 56, 8);
 		
 		System.out.println("====================================");
 		System.out.println("Ostrich characteristics");
@@ -24,7 +24,7 @@ public static void main(String[] args) {
 		Ostrich.printChar("Southern Ostrich","Big","Yes",45,2,140,2.8);
 		Ostrich.printCalWeight(140, 2);
 		Ostrich.printCalHeight(2.8, 2);
-		Ostrich.BirdBehaviour("Ostrich");
+		Ostrich.printCalFoodExpenses("Ostrich",100,6);
 		
 		System.out.println("====================================");
 		System.out.println("HummingBird characteristics");
@@ -32,16 +32,16 @@ public static void main(String[] args) {
 		HummingBird.printChar("Rufous HummingBird","Small","Yes",5,2,0.003,0.7);
 		HummingBird.printCalWeight(0.003, 25);
 		HummingBird.printCalHeight(0.7, 25);
-		HummingBird.BirdBehaviour("HummingBird");
+		HummingBird.printCalFoodExpenses("HummingBird",1,9);
 		
 		
 		System.out.println("====================================");
-		System.out.println("Hornbill characteristics");
+		System.out.println("Parrot characteristics");
 		System.out.println("====================================");
-		Hornbill.printChar("Rhinoceros Hornbill","Medium","Yes",35,2,2.96,1.3);
-		Hornbill.printCalWeight(2.96, 14);
-		Hornbill.printCalHeight(1.3, 14);
-		Hornbill.BirdBehaviour("Hornbill");
+		Parrot.printChar("Cockatoo","Medium","Yes",15,2,0.12,0.6);
+		Parrot.printCalWeight(0.12, 14);
+		Parrot.printCalHeight(0.6, 14);
+		Parrot.printCalFoodExpenses("Parrot",40,7);
 			
 	}
 }
