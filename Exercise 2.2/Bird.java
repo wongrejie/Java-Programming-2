@@ -1,7 +1,6 @@
 package Main;
 
 public class Bird {
-	
 	String Type,Size,Feathers;
 	int NumOfLegs,LifeSpan;
 	double Weight,Height;
@@ -27,11 +26,10 @@ public class Bird {
 		System.out.println("Total height for "+n+" bird of this type's height can increase up to "+TotalHeight+"m\n");
 	}
 	
-	void printCalFoodExpenses(int e,int m) {
+	void printCalFoodExpenses(int e,int m,int n) {
 		
-		int totalFoodExpenses= e*m;
+		int totalFoodExpenses= (e*m)*n;
 		 		
-			System.out.println("It's food can cost up to "+totalFoodExpenses+" dollar for "+m+" months.");
-			
+			System.out.println("the food expenses for "+n+" bird of this type can cost up to "+totalFoodExpenses+" dollar for "+m+" months.");
 	}
 }
