@@ -5,11 +5,11 @@ import java.util.Scanner;
 
 public class Bird {	//declare variables in class.
 	
-	  String type,size,colour,fly,swim;
+	 String type,size,colour,fly,swim;
 	 int lifespan,quantity,age,YearOfBorn,MonthlyExp,MonthQuantity,BirdQuantity,EstimateTimeLeft;
 	 double weight,TotalWeight, totalFoodExpenses,FoodExpensesDaily,height;
 	
-	static Scanner s = new Scanner(System.in); //create a scanner object.
+	 Scanner s = new Scanner(System.in); //create a scanner object.
 	
 	void printChar() {
 		System.out.println("Bird type: ");
@@ -28,9 +28,20 @@ public class Bird {	//declare variables in class.
 		System.out.println("Size: "+size);
 		System.out.println("Colour: "+colour);
 		System.out.println("the height of this bird is about "+height+" meter\n");
+				
+	}
+	
+	
+	void printWeight() {
 		
+		System.out.println("Enter the weight of this bird:");
+		 weight =s.nextDouble();
+		System.out.println("Enter the quantity of this bird:");
+		quantity =s.nextInt();
 		
-			
+		TotalWeight= weight*quantity;
+		System.out.printf("Total weight for "+quantity+" bird of this type can weight up to %.2f",TotalWeight);
+		System.out.print(" kg\n");
 	}
 	
 	void BirdBehaviour() {
@@ -60,17 +71,6 @@ public class Bird {	//declare variables in class.
 					}
 		}
 	
-	void printWeight() {
-		
-		System.out.println("Enter the weight of this bird:");
-		 weight =s.nextDouble();
-		System.out.println("Enter the quantity of this bird:");
-		quantity =s.nextInt();
-		
-		TotalWeight= weight*quantity;
-		System.out.printf("Total weight for "+quantity+" bird of this type can weight up to %.2f",TotalWeight);
-		System.out.print(" kg\n");
-	}
 	 
 	void printYearOfBorn() {
 		
@@ -83,7 +83,7 @@ public class Bird {	//declare variables in class.
 		EstimateTimeLeft=lifespan-age;
 		
 		System.out.println("\nThe year of born for this bird is "+YearOfBorn);
-		System.out.println("The estimated time left for this bird to live is about "+EstimateTimeLeft+" years");
+		System.out.println("The estimated time left for this bird to live is about "+EstimateTimeLeft+" years.");
 	}
 	
 	void printCalFoodExpenses() {
