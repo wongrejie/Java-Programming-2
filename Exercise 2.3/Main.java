@@ -12,30 +12,30 @@ public static void main(String[] args) {
 		Bird Parrot= new Bird();
 		
 		System.out.println("Information for Eagle");
-		Eagle.printChar();
+		Eagle.birdInfo();
 		Eagle.printWeight();
-		Eagle.BirdBehaviour();
+		Eagle.birdBehavior();
 		Eagle.printYearOfBorn();
 		Eagle.printCalFoodExpenses();
 		
 		System.out.println("Information for Ostrich");
-		Ostrich.printChar();
+		Ostrich.birdInfo();
 		Ostrich.printWeight();
-		Ostrich.BirdBehaviour();
+		Ostrich.birdBehavior();
 		Ostrich.printYearOfBorn();
 		Ostrich.printCalFoodExpenses();	
 		
 		System.out.println("Information for Hummingbird");
-		HummingBird.printChar();
+		HummingBird.birdInfo();
 		HummingBird.printWeight();
-		HummingBird.BirdBehaviour();
+		HummingBird.birdBehavior();
 		HummingBird.printYearOfBorn();
 		HummingBird.printCalFoodExpenses();	
 		
 		System.out.println("Information for Parrot");
-		Parrot.printChar();
+		Parrot.birdInfo();
 		Parrot.printWeight();
-		Parrot.BirdBehaviour();
+		Parrot.birdBehavior();
 		Parrot.printYearOfBorn();
 		Parrot.printCalFoodExpenses();
 			
