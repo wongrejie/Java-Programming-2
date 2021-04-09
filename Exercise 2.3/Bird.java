@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Bird {	//declare variables in class.
 	
-	String type,size,colour,fly,swim;
+	 String type,size,colour,fly,swim;
 	 int lifespan,quantity,age,YearOfBorn,MonthlyExp,MonthQuantity,BirdQuantity,EstimateTimeLeft;
 	 double weight,TotalWeight, totalFoodExpenses,FoodExpensesDaily,height;
 	
