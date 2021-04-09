@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class Bird {	//declare variables in class.
 	
-	 String type,size,colour,fly,swim;
+	String type,size,colour,fly,swim;
 	 int lifespan,quantity,age,YearOfBorn,MonthlyExp,MonthQuantity,BirdQuantity,EstimateTimeLeft;
 	 double weight,TotalWeight, totalFoodExpenses,FoodExpensesDaily,height;
 	
 	 Scanner s = new Scanner(System.in); //create a scanner object.
 	
-	void printChar() {
+	void birdInfo() {
 		System.out.println("Bird type: ");
 		 type =s.nextLine();
 		
@@ -44,7 +44,7 @@ public class Bird {	//declare variables in class.
 		System.out.print(" kg\n");
 	}
 	
-	void BirdBehaviour() {
+	void birdBehavior() {
 		
 		System.out.println("\nCan this bird fly?(yes/no)");
 		 s.nextLine();
