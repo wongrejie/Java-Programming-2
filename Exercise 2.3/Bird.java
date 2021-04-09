@@ -13,13 +13,13 @@ public class Bird {	//declare variables in class.
 	
 	void birdInfo() {
 		System.out.println("Bird type: ");
-		 type =s.nextLine();
+		type =s.nextLine();
 		
 		System.out.println("Size (big/medium/small): ");
-		 size =s.nextLine();
+		size =s.nextLine();
 		 
 		System.out.println("Colour: ");
-		 colour =s.nextLine();
+		colour =s.nextLine();
 		
 		System.out.println("Enter Height of the bird(meter): ");
 		height =s.nextDouble();
@@ -35,7 +35,7 @@ public class Bird {	//declare variables in class.
 	void printWeight() {
 		
 		System.out.println("Enter the weight of this bird:");
-		 weight =s.nextDouble();
+		weight =s.nextDouble();
 		System.out.println("Enter the quantity of this bird:");
 		quantity =s.nextInt();
 		
@@ -46,7 +46,7 @@ public class Bird {	//declare variables in class.
 	
 	void birdBehavior() {
 		
-		System.out.println("\nCan this bird fly?(yes/no)");
+		 System.out.println("\nCan this bird fly?(yes/no)");
 		 s.nextLine();
 		 fly =s.nextLine();
 		 System.out.println("Can this bird swim?(yes/no)");
@@ -88,7 +88,7 @@ public class Bird {	//declare variables in class.
 	
 	void printCalFoodExpenses() {
 		
-		System.out.println("\nEnter the monthly food expenses for ONE bird(RM):");
+		 System.out.println("\nEnter the monthly food expenses for ONE bird(RM):");
 		 MonthlyExp =s.nextInt();
 		
 		System.out.println("Enter how many months for the expenses:");
@@ -99,7 +99,6 @@ public class Bird {	//declare variables in class.
 
 		
 		totalFoodExpenses= (MonthlyExp*MonthQuantity)*BirdQuantity;
-		
 		FoodExpensesDaily= totalFoodExpenses/30;
 		 		
 			System.out.println("\nThe food expenses for "+BirdQuantity+" bird of this type can cost up to "+" RM"+
