@@ -74,7 +74,7 @@ public class Bird {	//declare variables in class.
 	 
 	void printYearOfBorn() {
 		
-		System.out.println("\nEnter the age of the bird(years old):");
+		System.out.println("\nEnter the age of the bird(year's old):");
 		age =s.nextInt();
 		System.out.println("Enter the Lifespan (Years) for this type of bird:");
 		lifespan =s.nextInt();
