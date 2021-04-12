@@ -7,7 +7,7 @@ public class Bird {	//declare variables in class.
 	
 	 String type,size,colour,fly,swim;
 	 int lifespan,quantity,age,YearOfBorn,MonthlyExp,MonthQuantity,BirdQuantity,EstimateTimeLeft;
-	 double weight,TotalWeight, totalFoodExpenses,FoodExpensesDaily,height;
+	 double weight,totalKilo,totalPound, totalFoodExpenses,FoodExpensesDaily,height;
 	
 	 Scanner s = new Scanner(System.in); //create a scanner object.
 	
@@ -35,13 +35,17 @@ public class Bird {	//declare variables in class.
 	void printWeight() {
 		
 		System.out.println("Enter the weight of this bird:");
-		weight =s.nextDouble();
+		 weight =s.nextDouble();
 		System.out.println("Enter the quantity of this bird:");
 		quantity =s.nextInt();
 		
-		TotalWeight= weight*quantity;
-		System.out.printf("Total weight for "+quantity+" bird of this type can weight up to %.2f",TotalWeight);
+		totalKilo= weight*quantity;
+		totalPound= totalKilo*2.205;
+		
+		System.out.printf("Total kilogram for "+quantity+" bird of this type can weight up to %.2f",totalKilo);
 		System.out.print(" kg\n");
+		System.out.printf("Total pound for "+quantity+" bird of this type can weight up to %.2f",totalPound);
+		System.out.print(" pound\n");
 	}
 	
 	void birdBehavior() {
