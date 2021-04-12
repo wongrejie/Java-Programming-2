@@ -34,7 +34,7 @@ public class Bird {	//declare variables in class.
 	
 	void printWeight() {
 		
-		System.out.println("Enter the weight of this bird:");
+		System.out.println("Enter the weight of this bird(kg):");
 		 weight =s.nextDouble();
 		System.out.println("Enter the quantity of this bird:");
 		quantity =s.nextInt();
