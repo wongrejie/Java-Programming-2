@@ -8,19 +8,19 @@ public class AquaticAnimal {
 	
 	// Create Setter Method
 	  public void setFishType(String fishType) {
-		  	this.Type = fishType;
+		  this.Type = fishType;
 	  }
 	  
 	  public void setColour(String colour) {
-		    this.colour = colour;
+		  this.colour = colour;
 	  }
 	  
 	  public void setFinNum(int finNum) {
-		  	this.finNum = finNum;
+		  this.finNum = finNum;
 	  }
 	  
 	  public void setWeight(double weight) {
-		  	this.weight=weight;
+		  this.weight=weight;
 		
 	  }
 	  
@@ -42,8 +42,7 @@ public class AquaticAnimal {
 	  
 	  public void setFoodExpenses(double monthlyExp) {
 			
-			 
-			this.monthlyExp=monthlyExp;
+		  this.monthlyExp=monthlyExp;
 	  }	
 				
  
