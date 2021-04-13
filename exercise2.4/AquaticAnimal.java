@@ -2,8 +2,8 @@ package exercise24;
 
 public class AquaticAnimal {
 	String Type,colour,blood;
-	int finNum,year,lifeSpan,age,animalQuantity;
-	double weight,totalKilo,totalPound,totalFoodExp,monthlyExp;
+	int finNum,lifespan;
+	double weight,monthlyExp;
 	
 	
 	// Create Setter Method
@@ -19,15 +19,8 @@ public class AquaticAnimal {
 		  	this.finNum = finNum;
 	  }
 	  
-	  public void setWeight(double weight,int quantity,String weightType) {
-		totalKilo= weight*quantity;
-		totalPound= totalKilo*2.205;
-		
-		switch(weightType){
-			case "kilogram": this.weight= totalKilo;
-					break;
-			case "pound": this.weight= totalPound;
-		}
+	  public void setWeight(double weight) {
+		  	this.weight=weight;
 		
 	  }
 	  
@@ -41,17 +34,16 @@ public class AquaticAnimal {
 		  }
 	  }
 		  
-	  public void setTimeLeft(int age,int lifeSpan) {
+	  public void setLifespan(int lifespan) {
 		  
-		  this.age= lifeSpan-age;
+		  this.lifespan=lifespan;
 		  
 			}
 	  
-	  public void setFoodExpenses(double monthlyExp,int monthQuantity) {
+	  public void setFoodExpenses(double monthlyExp) {
 			
-			
-			totalFoodExp= (monthlyExp*monthQuantity)*animalQuantity;
-			this.monthlyExp= totalFoodExp/30;
+			 
+			this.monthlyExp=monthlyExp;
 	  }	
 				
  
@@ -78,14 +70,15 @@ public class AquaticAnimal {
 		  return this.blood;
 	  }
 	  
-	  public int getTimeLeft() {
-		  return this.age;
+	  public int getLifespan() {
+		  return this.lifespan;
 	  }
 	  
 	  public double getFoodExpenses() {
 		  return this.monthlyExp;
 	  }
-	
+	  
+	  
 	// Create a ocean() method
 	public void ocean() {
 		System.out.println("There are many type of creatures live inside the ocean!");
