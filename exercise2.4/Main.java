@@ -11,17 +11,18 @@ public class Main {
 		Dolphin.setColour("Grey.");
 		Dolphin.setFinNum(5);
 		Dolphin.setBlood("warm-blooded");
-		Dolphin.setWeight(150.9,2,"kilogram");
-		Dolphin.setTimeLeft(6,40);
-		Dolphin.setFoodExpenses(200, 6);
+		Dolphin.setWeight(150.9);
+		Dolphin.setLifespan(40);
+		Dolphin.setFoodExpenses(200);
 		
 		
 		System.out.println("Type : " + Dolphin.getFishType());
 		System.out.println("Colour: "+ Dolphin.getColour());
 		System.out.println("Number of fins: "+ Dolphin.getFinNum());
 		System.out.println("Bloodtype: "+ Dolphin.getBlood());
-		System.out.printf("\nTotal weight(kg/pound): %.2f",Dolphin.getWeight());
-		System.out.println("\nEstimated time for this animal to live is about " + Dolphin.getTimeLeft()+" years");
+		System.out.println("Weight(kg): "+Dolphin.getWeight());
+		System.out.println("Lifespan for this animal is about " + Dolphin.getLifespan()+" years");
+		System.out.println("Monthly food expenses: RM"+Dolphin.getFoodExpenses());
 		
 		Dolphin.ocean();
 		
