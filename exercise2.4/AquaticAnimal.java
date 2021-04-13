@@ -20,23 +20,23 @@ public class AquaticAnimal {
 	  }
 	  
 	  public void setWeight(double weight) {
-		  this.weight=weight;
+		  this.weight = weight;
 		
 	  }
 	  
 	  public void setBlood(String blood) {
-		  this.blood=blood;
+		  this.blood = blood;
 	  }
 		  
 	  public void setLifespan(int lifespan) {
 		  
-		  this.lifespan=lifespan;
+		  this.lifespan = lifespan;
 		  
 			}
 	  
 	  public void setFoodExpenses(double monthlyExp) {
 			
-		  this.monthlyExp=monthlyExp;
+		  this.monthlyExp = monthlyExp;
 	  }	
 				
  
