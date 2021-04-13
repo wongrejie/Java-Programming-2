@@ -23,7 +23,7 @@ public class Main {
 		System.out.printf("\nTotal weight(kg/pound): %.2f",Dolphin.getWeight());
 		System.out.println("\nEstimated time for this animal to live is about " + Dolphin.getTimeLeft()+" years");
 		
-		
+		Dolphin.ocean();
 		
 	}
 
