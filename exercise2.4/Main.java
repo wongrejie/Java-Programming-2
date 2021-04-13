@@ -13,7 +13,7 @@ public class Main {
 		Dolphin.setBlood("warm-blooded");
 		Dolphin.setWeight(150.9);
 		Dolphin.setLifespan(40);
-		Dolphin.setFoodExpenses(200);
+		Dolphin.setFoodExpenses(2000);
 		
 		
 		System.out.println("Type : " + Dolphin.getFishType());
