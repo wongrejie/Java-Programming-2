@@ -25,13 +25,7 @@ public class AquaticAnimal {
 	  }
 	  
 	  public void setBlood(String blood) {
-		  switch(blood) {
-		  case "warm-blooded": this.blood= "Warm-blooded, this animal is a mammal, it does not lay eggs.";
-		  		break;
-
-		  case "cold-blooded": this.blood= "Cold-blooded, this animal is a normal fish, it lay eggs.";
-		  		break;
-		  }
+		  this.blood=blood;
 	  }
 		  
 	  public void setLifespan(int lifespan) {
