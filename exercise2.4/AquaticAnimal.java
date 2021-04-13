@@ -85,6 +85,11 @@ public class AquaticAnimal {
 	  public double getFoodExpenses() {
 		  return this.monthlyExp;
 	  }
+	
+	// Create a ocean() method
+	public void ocean() {
+		System.out.println("There are many type of creatures live inside the ocean!");
+	}
 	  
 	 
 	}
