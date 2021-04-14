@@ -82,9 +82,7 @@ public class Fish {
 	  }
 	  
 	  
-	  
-	// Create a countTimeLeft() method
-	public int countTimeLeft() {
+	public int getTimeLeft() {
 		
 		this.timeLeft=this.lifespan-this.age;
 		return this.timeLeft;
