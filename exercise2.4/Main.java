@@ -20,7 +20,7 @@ public class Main {
 		System.out.println("Number of fins: "+ Salmon.getFinNum());
 		System.out.println("Bloodtype: "+ Salmon.getBlood());
 		System.out.println("Weight(kg): "+Salmon.getWeight());
-		System.out.println("Lifespan for this animal is about " + Salmon.getLifespan()+" years");
+		System.out.println("Lifespan for this fish is about " + Salmon.getLifespan()+" years");
 		System.out.println("The age of this fish is " + Salmon.getAge()+" year's old");
 		System.out.println("Monthly food expenses: RM"+Salmon.getFoodExpenses());
 		
