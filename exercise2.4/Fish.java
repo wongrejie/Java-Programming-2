@@ -2,7 +2,7 @@ package exercise24;
 
 public class Fish {
 	String Type,colour,blood;
-	int finNum,lifespan,age;
+	int finNum,lifespan,age,timeLeft;
 	double weight,monthlyExp;
 	
 	
@@ -32,7 +32,13 @@ public class Fish {
 		  
 		  this.lifespan = lifespan;
 		  
-			}
+		}
+	  
+	  public void setAge(int age) {
+		  
+		  this.age = age;
+		  
+		}
 	  
 	  public void setFoodExpenses(double monthlyExp) {
 			
@@ -67,8 +73,21 @@ public class Fish {
 		  return this.lifespan;
 	  }
 	  
+	  public int getAge() {
+		  return this.age;
+	  }
+	  
 	  public double getFoodExpenses() {
 		  return this.monthlyExp;
 	  }
+	  
+	  
+	  
+	// Create a countTimeLeft() method
+	public int countTimeLeft() {
+		
+		this.timeLeft=this.lifespan-this.age;
+		return this.timeLeft;
+	}
 	 
 }
