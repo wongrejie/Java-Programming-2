@@ -2,7 +2,7 @@ package exercise24;
 
 public class AquaticAnimal {
 	String Type,colour,blood;
-	int finNum,lifespan;
+	int finNum,lifespan,age;
 	double weight,monthlyExp;
 	
 	
@@ -72,9 +72,11 @@ public class AquaticAnimal {
 	  }
 	  
 	  
-	// Create a ocean() method
-	public void ocean() {
-		System.out.println("There are many type of creatures live inside the ocean!");
+	  
+	// Create a countTimeLeft() method
+	public int countTimeLeft(int age) {
+		
+		return this.lifespan-age;
 	}
 	  
 	 
