@@ -26,7 +26,6 @@ public class Main {
 		System.out.println("Lifespan for this animal is about " + Salmon.getLifespan()+" years");
 		System.out.println("Monthly food expenses: RM"+Salmon.getFoodExpenses());
 		
-		System.out.println("Estimated time left for this aquatic animal to live is about "+Salmon.countTimeLeft(5)+" years");
 		
 		
 	}
