@@ -7,6 +7,8 @@ public class Main {
 		// TODO Auto-generated method stub
 		AquaticAnimal Dolphin= new AquaticAnimal();
 		
+
+		
 		Dolphin.setFishType("Bottlenose Dolphin.");
 		Dolphin.setColour("Grey.");
 		Dolphin.setFinNum(5);
@@ -24,7 +26,7 @@ public class Main {
 		System.out.println("Lifespan for this animal is about " + Dolphin.getLifespan()+" years");
 		System.out.println("Monthly food expenses: RM"+Dolphin.getFoodExpenses());
 		
-		Dolphin.ocean();
+		System.out.println("Estimated time left for this aquatic animal to live is about "+Dolphin.countTimeLeft(5)+" years");
 		
 	}
 
