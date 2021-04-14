@@ -24,7 +24,7 @@ public class Main {
 		System.out.println("The age of this fish is " + Salmon.getAge()+" year's old");
 		System.out.println("Monthly food expenses: RM"+Salmon.getFoodExpenses());
 		
-		System.out.println("Estimated time left for this aquatic animal to live is about "+Salmon.countTimeLeft()+" years");
+		System.out.println("Estimated time left for this aquatic animal to live is about "+Salmon.getTimeLeft()+" years");
 		
 		
 		
