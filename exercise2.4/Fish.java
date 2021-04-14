@@ -70,12 +70,5 @@ public class Fish {
 	  public double getFoodExpenses() {
 		  return this.monthlyExp;
 	  }
-	  
-	  
-	  
-	// Create a countTimeLeft() method
-	public int countTimeLeft(int age) {
-		
-		return this.lifespan-age;
-	}
+	 
 }
