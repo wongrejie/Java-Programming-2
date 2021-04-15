@@ -6,10 +6,10 @@ public class Main {
 		Horse horse1 = new Horse();
 		horse1.setHorseBreed();
 		horse1.setColour();
-		horse1. setWeight();
-		horse1. setLifespan();
+		horse1.setWeight();
+		horse1.setLifespan();
 		horse1.setAge();
-		horse1. setFoodExpenses();
+		horse1.setFoodExpenses();
 		
 		
 		 System.out.println("\n~~~~~~~~ Horse 1 ~~~~~~~~ ");
@@ -24,10 +24,10 @@ public class Main {
 	        Horse Horse2 = new Horse();
 		Horse2.setHorseBreed();
 		Horse2.setColour();
-		Horse2. setWeight();
-		Horse2. setLifespan();
+		Horse2.setWeight();
+		Horse2.setLifespan();
 		Horse2.setAge();
-		Horse2. setFoodExpenses();
+		Horse2.setFoodExpenses();
 			
 			
 		System.out.println("\n~~~~~~~~ Horse 2 ~~~~~~~~ ");
