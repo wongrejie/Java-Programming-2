@@ -10,13 +10,13 @@ public class Horse {
 	// Create Setter Method
 	  public void setHorseBreed() {
 		  
-		  System.out.printf("Enter the horse type: ");
+		  System.out.printf("Enter the horse breed: ");
 		  this.horseBreed=s.nextLine();
 		  
 	  }
 	  
 	  public void setColour() {
-		  System.out.printf("Enter the colour of the breed: ");
+		  System.out.printf("Enter the colour of the horse: ");
 			this.colour = s.nextLine();
 	  }
 	  
