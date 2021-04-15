@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Horse horse1 = new Horse();
-		horse1.setHorseType();
+		horse1.setHorseBreed();
 		horse1.setColour();
 		horse1. setWeight();
 		horse1. setLifespan();
@@ -13,7 +13,7 @@ public class Main {
 		
 		
 		 System.out.println("\n~~~~~~~~ Horse 1 ~~~~~~~~ ");
-		 System.out.println("Type: "+horse1.getHorseType());
+		 System.out.println("Type: "+horse1.getHorseBreed());
 		 System.out.println("Colour: "+horse1.getColour());
 		 System.out.println("Weight: "+horse1.getWeight()+" kg");
 		 System.out.println("Lifespan: "+horse1.getLifespan()+" years");
@@ -22,7 +22,7 @@ public class Main {
 		 System.out.println("\n~~~~~~~~~~~~~~~~~~~~~~~~ ");
 	
 	    Horse Horse2 = new Horse();
-		Horse2.setHorseType();
+		Horse2.setHorseBreed();
 		Horse2.setColour();
 		Horse2. setWeight();
 		Horse2. setLifespan();
@@ -31,7 +31,7 @@ public class Main {
 			
 			
 			 System.out.println("\n~~~~~~~~ Horse 2 ~~~~~~~~ ");
-			 System.out.println("Type: "+Horse2.getHorseType());
+			 System.out.println("Type: "+Horse2.getHorseBreed());
 			 System.out.println("Colour: "+Horse2.getColour());
 			 System.out.println("Weight: "+Horse2.getWeight()+" kg");
 			 System.out.println("Lifespan: "+Horse2.getLifespan()+" years");
@@ -39,5 +39,4 @@ public class Main {
 			 System.out.println("Estimated time to live is about: "+Horse2.getTimeLeft()+" years");
 			 System.out.println("\n~~~~~~~~~~~~~~~~~~~~~~~~ ");
 	}
-
 }
