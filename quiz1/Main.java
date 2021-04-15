@@ -21,13 +21,13 @@ public class Main {
 		 System.out.println("Estimated time to live is about: "+horse1.getTimeLeft()+" years");
 		 System.out.println("\n~~~~~~~~~~~~~~~~~~~~~~~~ ");
 	
-	        Horse Horse2 = new Horse();
-		Horse2.setHorseBreed();
-		Horse2.setColour();
-		Horse2.setWeight();
-		Horse2.setLifespan();
-		Horse2.setAge();
-		Horse2.setFoodExpenses();
+	        Horse horse2 = new Horse();
+		horse2.setHorseBreed();
+		horse2.setColour();
+		horse2.setWeight();
+		horse2.setLifespan();
+		horse2.setAge();
+		horse2.setFoodExpenses();
 			
 			
 		System.out.println("\n~~~~~~~~ Horse 2 ~~~~~~~~ ");
