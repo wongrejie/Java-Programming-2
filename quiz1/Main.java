@@ -31,12 +31,12 @@ public class Main {
 			
 			
 		System.out.println("\n~~~~~~~~ Horse 2 ~~~~~~~~ ");
-		System.out.println("Type: "+Horse2.getHorseBreed());
-		System.out.println("Colour: "+Horse2.getColour());
-		System.out.println("Weight: "+Horse2.getWeight()+" kg");
-		System.out.println("Lifespan: "+Horse2.getLifespan()+" years");
-	        System.out.println("Age: " + Horse2.getAge()+" year's old");
-		System.out.println("Estimated time to live is about: "+Horse2.getTimeLeft()+" years");
+		System.out.println("Type: "+horse2.getHorseBreed());
+		System.out.println("Colour: "+horse2.getColour());
+		System.out.println("Weight: "+horse2.getWeight()+" kg");
+		System.out.println("Lifespan: "+horse2.getLifespan()+" years");
+	        System.out.println("Age: " + horse2.getAge()+" year's old");
+		System.out.println("Estimated time to live is about: "+horse2.getTimeLeft()+" years");
 		System.out.println("\n~~~~~~~~~~~~~~~~~~~~~~~~ ");
 	}
 }
