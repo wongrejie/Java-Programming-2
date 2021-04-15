@@ -21,7 +21,7 @@ public class Main {
 		 System.out.println("Estimated time to live is about: "+horse1.getTimeLeft()+" years");
 		 System.out.println("\n~~~~~~~~~~~~~~~~~~~~~~~~ ");
 	
-	    Horse Horse2 = new Horse();
+	        Horse Horse2 = new Horse();
 		Horse2.setHorseBreed();
 		Horse2.setColour();
 		Horse2. setWeight();
