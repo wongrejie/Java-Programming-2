@@ -16,7 +16,7 @@ public class Horse {
 	  }
 	  
 	  public void setColour() {
-		  System.out.printf("Enter the colour of the horse: ");
+		  System.out.printf("Enter the colour of the breed: ");
 			this.colour = s.nextLine();
 	  }
 	  
