@@ -65,11 +65,7 @@ public class Horse {
 	  public double getWeight() {
 		  return this.weight;
 	  }
-	  
-	  public String getBlood() {
-		  return this.blood;
-	  }
-	  
+	   
 	  public Integer getLifespan() {
 		  return this.lifespan;
 	  }
