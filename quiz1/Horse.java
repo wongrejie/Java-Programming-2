@@ -2,16 +2,16 @@ package quiz1;
 import java.util.Scanner;
 public class Horse {
 
-	String horseType,colour,blood;
+	String horseBreed,colour;
 	int lifespan,age,estimateTimeLeft;
 	double weight,monthlyExp;
 	
 		Scanner s = new Scanner(System.in);
 	// Create Setter Method
-	  public void setHorseType() {
+	  public void setHorseBreed() {
 		  
 		  System.out.printf("Enter the horse type: ");
-		  this.horseType=s.nextLine();
+		  this.horseBreed=s.nextLine();
 		  
 	  }
 	  
@@ -54,8 +54,8 @@ public class Horse {
 	  // Create Getter Method
 	 
 	  
-	  public String getHorseType() {
-		  return this.horseType;
+	  public String getHorseBreed() {
+		  return this.horseBreed;
 	  }
 	  
 	  public String getColour() {
@@ -65,7 +65,7 @@ public class Horse {
 	  public double getWeight() {
 		  return this.weight;
 	  }
-	   
+	  
 	  public Integer getLifespan() {
 		  return this.lifespan;
 	  }
