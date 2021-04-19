@@ -50,6 +50,7 @@ public class Laptop {
 			this.price=price;
 	}
 	
+	//Create getter method.
 	public String getBrand() {
 		return this.brand;
 	}
