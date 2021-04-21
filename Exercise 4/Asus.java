@@ -2,20 +2,15 @@ package laptopInherite;
 
 public class Asus extends Laptop{
 	
-	private double price,totalPrice,monthlyPayment,downPayment;
+	private double totalPrice,monthlyPayment,downPayment;
 	private int quantity,paymentPeriod;
 	
 	public Asus(String b,String m, String c, String o,double w, double p, int q,int pp) {
-		super(b,m,c,o,w);
+		super(b,m,c,o,w,p);
 		
-		price=p;
 		quantity=q;
 		paymentPeriod=pp;
 		
-	}
-	
-	public Double getPrice() {
-		return this.price;
 	}
 	
 	public int getQuantity() {
@@ -27,7 +22,7 @@ public class Asus extends Laptop{
 	}
 	
 	public double getTotalPrice() {
-		totalPrice=price*quantity;
+		totalPrice=super.getPrice()*quantity;
 		return this.totalPrice;
 	}
 	
@@ -46,7 +41,6 @@ public class Asus extends Laptop{
 	
 	
 	public String toString() {
-        return super.toString()+"\nQuantity = " + quantity+"\nPrice = RM" + price+"\nPayment Period(months) = " +paymentPeriod;
+        return super.toString()+"\nQuantity = " + quantity+"\nPayment Period(months) = " +paymentPeriod;
      }
-
 }
