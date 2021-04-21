@@ -59,6 +59,6 @@ public class Laptop {
 	}
 	
 	public String toString() {
-	     return "Brand= "+brand+"\nModel= "+model+"\nColour= "+colour+"\nOperating System= "+os+"\nWeight= "+weight+" kg";
+	     return "\nBrand= "+brand+"\nModel= "+model+"\nColour= "+colour+"\nOperating System= "+os+"\nWeight= "+weight+" kg";
 	   }
 }
