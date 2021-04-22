@@ -7,7 +7,7 @@ public class Laptop {
 	private double weight, price;
 	
 	Scanner s = new Scanner(System.in);
-	
+	//default constructor
 	public Laptop() {
 		
 		System.out.print("Enter the brand: ");
@@ -29,7 +29,7 @@ public class Laptop {
 		this.price = s.nextDouble();
 		
 	}
-	
+	//Parameterized constructor
 	public Laptop(String b, String m, String c, String o, double w, double p) {
 		
 		this.brand=b;
