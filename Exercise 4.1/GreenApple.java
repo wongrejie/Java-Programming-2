@@ -1,6 +1,6 @@
 package fruitInheritence;
 
-public class GreenApple extends Apple { //sub class
+public class GreenApple extends Apple { //sub class for Apple
 	private int quantity;
 	private String taste;
 	
