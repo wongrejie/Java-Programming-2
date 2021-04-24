@@ -1,6 +1,6 @@
 package fruitInheritence;
 
-public class Watermelon extends Fruits{ //sub class for Fruit
+public class Watermelon extends Fruits{ //sub class for Fruits
 	private double weight;
 	private double price;
 	private String size;
