@@ -1,6 +1,6 @@
 package fruitInheritence;
 
-public class Apple extends Fruits { //sub class
+public class Apple extends Fruits { //sub class for Fruits
 	protected double weight;
 	private double price;
 	
