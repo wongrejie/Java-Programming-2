@@ -4,8 +4,8 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Fruits objFruits= new Fruits("Grape");
-		System.out.println(objFruits);
+// 		Fruits objFruits= new Fruits("Grape");
+// 		System.out.println(objFruits);
 		
 		Apple objApple= new Apple("Apple",3,5);
 		System.out.println(objApple);
