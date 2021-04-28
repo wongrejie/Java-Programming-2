@@ -65,4 +65,4 @@ public class GreenApple extends Apple { //sub class of Apple
 	        return super.toString()+"\n"+"Taste = "+taste+"\n"+"Quantity = "+quantity+"\n"+"Average Weight per Apple (kg) = "+getWeightPerApple();
 	        
 	     }
-}
+}	//end for GreenApple extends Apple
