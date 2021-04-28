@@ -61,4 +61,4 @@ public void setInfo(String n,String s,double w,double p) {	 //overloading method
 	        return super.toString()+"\nSize = "+size+"\nWeight (kg) = "+weight+"\nPrice= RM"+price+"\nTotal Price= RM"+getTotalPrice();
 	        
 	     }
-}
+}	//end for Watermelon extends Fruits
