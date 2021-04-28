@@ -23,4 +23,4 @@ public class Fruits { //super class
 		     return "\nFruit Name = "+name;
 		   }
 	
-}
+}	//end for  Fruits
