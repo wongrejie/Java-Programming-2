@@ -4,14 +4,14 @@ public class Apple extends Fruits { //sub class
 	protected double weight;
 	protected double price;
 	
-	public Apple() {	//constructor with no arguments
+	public Apple() {	//constructor sub class with no arguments
 		super();
 		weight=0;	//declare weight=0, price=0
 		price=0;
 			
 	}	
 	
-	public Apple(String n,double w,double p) {	//constructor with 3 arguments
+	public Apple(String n,double w,double p) {	//constructor sub class with arguments
 		super(n);
 		weight=w;
 		price=p;
