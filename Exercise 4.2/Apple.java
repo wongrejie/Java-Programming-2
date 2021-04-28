@@ -51,4 +51,4 @@ public class Apple extends Fruits { //sub class
 	        
 	     }
 	
-}	//end of Apple class
+}	//end for Apple extends Fruits
