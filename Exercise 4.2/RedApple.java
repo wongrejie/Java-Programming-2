@@ -50,4 +50,4 @@ public void setInfo(String n,String t,double w,double p,int q) {	 //overloading 
 	        
 	     }
 
-}
+}	//end for RedApple extends Apple
