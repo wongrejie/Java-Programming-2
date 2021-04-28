@@ -20,7 +20,7 @@ public class Watermelon extends Fruits{	//sub class of Fruits
 		weight=w;
 		price=p;
 		
-		setInfo(n,s,w,p);
+		setInfo(n,s,w,p);	 //method for overloading
 	}	
 	
 public void setInfo(String n,String s,double w,double p) {	 //overloading method with 4 parameter
