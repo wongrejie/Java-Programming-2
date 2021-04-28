@@ -23,7 +23,7 @@ public class Watermelon extends Fruits{	//sub class of Fruits
 		setInfo(n,s,w,p);
 	}	
 	
-public void setInfo(String n,String s,double w,double p) {	 //overloading method with 2 parameter
+public void setInfo(String n,String s,double w,double p) {	 //overloading method with 4 parameter
 		
 		if(n.equals(null))
 			n = null;
