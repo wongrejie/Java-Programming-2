@@ -62,18 +62,6 @@ public void setInfo(String n,String t, String c,String g,double p,double w) {	 /
 		
 	}
 	
-	public String getType() {
-		return this.type;
-	}
-	
-	public String getColour() {
-		return this.colour;
-	}
-	
-	public String getGrowthRate() {
-		return this.growthRate;
-	}
-	
 	public double getTotalPrice() {
 		return this.weight*this.price;
 	}
