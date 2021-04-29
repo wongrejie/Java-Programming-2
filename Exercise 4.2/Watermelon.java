@@ -47,9 +47,7 @@ public void setInfo(String n,String s,double w,double p) {	 //overloading method
 	
 	}
 	
-	public String getSize() {
-		return this.size;
-	}
+	
 	
 	public double getTotalPrice() {
 		return this.weight*this.price;
