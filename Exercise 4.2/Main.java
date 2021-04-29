@@ -9,7 +9,6 @@ public class Main {
 		
 		
 		Apple objApple= new Apple("Apple",3,5);
-		
 		System.out.println(objApple);
 		
 		GreenApple objGreenApple= new GreenApple("Green Apple","Sour",7,6,10);
