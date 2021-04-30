@@ -13,9 +13,9 @@ public class Main {
 		System.out.println(objApple.toString());		//display overriding method 
 		System.out.println(objApple.totalPrice());		//display overloading method with no parameter
 		System.out.println("Price status = "+
-		objApple.totalPrice(objApple.price));				//display overloading method with 1 parameter
+		objApple.totalPrice(objApple.price));			//display overloading method with 1 parameter
 		System.out.println("Total Price = RM"+
-		objApple.totalPrice(objApple.weight,objApple.price)); //display overloading method with 2 parameter	
+		objApple.totalPrice(objApple.weight,objApple.price)); 	//display overloading method with 2 parameter	
 		System.out.println(objApple.Benefits());		//display overriding method 
 		System.out.println("---------------------------------------------------------");
 		
@@ -24,10 +24,10 @@ public class Main {
 		System.out.println(objGreenApple.toString());		//display overriding method 
 		System.out.println(objGreenApple.totalPrice());		//display overriding method  with no parameter
 		System.out.println("Price status = "+
-		objGreenApple.totalPrice(objGreenApple.price));				//display overloading method with 1 parameter
+		objGreenApple.totalPrice(objGreenApple.price));		//display overloading method with 1 parameter
 		System.out.println("Total Price = RM"+
-		objGreenApple.totalPrice(objGreenApple.weight,objGreenApple.price)); //display overloading method with 2 parameter	
-		System.out.println(objGreenApple.Benefits());		//display overriding method
+		objGreenApple.totalPrice(objGreenApple.weight,objGreenApple.price)); 	//display overloading method with 2 parameter	
+		System.out.println(objGreenApple.Benefits());				//display overriding method
 		System.out.println("---------------------------------------------------------");
 		
 		RedApple objRedApple= new RedApple("Red Apple","Sweet",6,8,8);
@@ -35,10 +35,10 @@ public class Main {
 		System.out.println(objRedApple.toString());		//display overriding method 
 		System.out.println(objRedApple.totalPrice());		//display overriding method with no parameter
 		System.out.println("Price status = "+
-		objRedApple.totalPrice(objRedApple.price));				//display overloading method with 1 parameter
+		objRedApple.totalPrice(objRedApple.price));		//display overloading method with 1 parameter
 		System.out.println("Total Price = RM"+
-		objRedApple.totalPrice(objRedApple.weight,objRedApple.price)); //display overloading method with 2 parameter
-		System.out.println(objRedApple.Benefits());		//display overriding method
+		objRedApple.totalPrice(objRedApple.weight,objRedApple.price)); 		//display overloading method with 2 parameter
+		System.out.println(objRedApple.Benefits());				//display overriding method
 		System.out.println("---------------------------------------------------------");
 		
 		Watermelon objMelon= new Watermelon("Watermelon","Big",8,9);
@@ -46,10 +46,10 @@ public class Main {
 		System.out.println(objMelon.toString());		//display overriding method 
 		System.out.println(objMelon.totalPrice());		//display overloading method with no parameter
 		System.out.println("Price status = "+
-		objMelon.totalPrice(objMelon.price));				//display overloading method with 1 parameter
+		objMelon.totalPrice(objMelon.price));			//display overloading method with 1 parameter
 		System.out.println("Total Price = RM"+
-		objMelon.totalPrice(objMelon.weight,objMelon.price)); //display overloading method with 2 parameter
-		System.out.println(objMelon.Benefits());		//display overriding method from Fruits
+		objMelon.totalPrice(objMelon.weight,objMelon.price)); 		//display overloading method with 2 parameter
+		System.out.println(objMelon.Benefits());			//display overriding method from Fruits
 		System.out.println("---------------------------------------------------------");
 		
 		Strawberry objStrBerry= new Strawberry("Strawberry","Honeoye","Bright Red","medium",35,0.2);
@@ -57,10 +57,10 @@ public class Main {
 		System.out.println(objStrBerry.toString());		//display overriding method
 		System.out.println(objStrBerry.totalPrice());		//display overloading method with no parameter
 		System.out.println("Price status = "+
-		objStrBerry.totalPrice(objStrBerry.price));				//display overloading method with 1 parameter
+		objStrBerry.totalPrice(objStrBerry.price));		//display overloading method with 1 parameter
 		System.out.println("Total Price = RM"+
-		objStrBerry.totalPrice(objStrBerry.weight,objStrBerry.price)); //display overloading method with 2 parameter
-		System.out.println(objStrBerry.Benefits());		//display overriding method 
+		objStrBerry.totalPrice(objStrBerry.weight,objStrBerry.price)); 		//display overloading method with 2 parameter
+		System.out.println(objStrBerry.Benefits());				//display overriding method 
 		System.out.println("---------------------------------------------------------");
 	}
 
