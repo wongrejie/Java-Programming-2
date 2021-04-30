@@ -10,13 +10,20 @@ public class Apple extends Fruits { //sub class
 		this.weight=w;
 		this.price=p;
 		
+		
 		toString();//call overriding method
 		totalPrice();//call overloading method with no parameter
 		totalPrice(price);//call overloading method with 1 parameter
 		totalPrice(weight,price); //call overloading method with 2 parameter	
-	
+		Benefits();//call overriding method
 		
 	}	
+	
+	public String Benefits() {	 //overriding method from Fruits with no parameter
+		
+		return "Apple contains substances that may help to prevent cancer\n"
+				+ "and also compounds that help to fight Asthma.";
+	}
 	
 	public String totalPrice() {	 //overloading method with no parameter
 		

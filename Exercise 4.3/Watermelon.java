@@ -16,7 +16,14 @@ public class Watermelon extends Fruits{	//sub class of Fruits
 		totalPrice();//call overloading method with no parameter
 		totalPrice(price);//call overloading method with 1 parameter
 		totalPrice(weight,price); //call overloading method with 2 parameter	
+		Benefits();//call overriding method
+		
+	}	
 	
+	public String Benefits() {	 //overriding method from Fruits with no parameter
+		
+		return "Watermelon helps to lower inflammation \n"
+				+ "and oxidative Stress.";
 	}	
 	
 	public String totalPrice() {	 //overloading method with no parameter

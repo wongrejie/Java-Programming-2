@@ -17,8 +17,14 @@ public class Strawberry extends Fruits { //sub class of Fruits
 		totalPrice();//call overloading method with no parameter
 		totalPrice(price);//call overloading method with 1 parameter
 		totalPrice(weight,price); //call overloading method with 2 parameter	
-	
+		Benefits();//call overriding method
 		
+	}	
+	
+	public String Benefits() {	 //overriding method from Fruits with no parameter
+		
+		return "Strawberry can helps to lower blood pressure and \n"
+				+ "packed with high levels of antioxidants.";
 	}	
 	
 	public String totalPrice() {	 //overloading method with no parameter

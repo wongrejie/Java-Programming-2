@@ -11,6 +11,11 @@ public class RedApple extends Apple { //sub class of Apple
 		this.quantity=q;
 	}	
 	
+public String Benefits() {	 //overriding method  with no parameter
+		
+		return "Red apples contain high level of antioxidant flavonoids \n"
+				+ "which help repair cellular damage.";
+}
 	public String totalPrice() {	 //overriding method from class Apple with no parameter
 		
 		return "This fruit is a type of Apple : Red Apple"+ 

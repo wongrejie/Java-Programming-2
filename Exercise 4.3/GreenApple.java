@@ -17,6 +17,11 @@ public class GreenApple extends Apple { //sub class of Apple
 				"\nIts price is RM"+this.price+" per KG.";
 		
 }
+	public String Benefits() {	 //overriding method from Fruits with no parameter
+		
+		return "Green apples have less sugar,carbs\n"
+				+ "and more fiber, protein, potassium";
+}
 
 	public double getWeightPerApple() {
 		return super.weight/this.quantity;
