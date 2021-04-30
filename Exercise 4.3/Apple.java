@@ -11,11 +11,11 @@ public class Apple extends Fruits { //sub class
 		this.price=p;
 		
 		
-		toString();//call overriding method
-		totalPrice();//call overloading method with no parameter
-		totalPrice(price);//call overloading method with 1 parameter
-		totalPrice(weight,price); //call overloading method with 2 parameter	
-		Benefits();//call overriding method
+		toString();			//call overriding method
+		totalPrice();			//call overloading method with no parameter
+		totalPrice(price);		//call overloading method with 1 parameter
+		totalPrice(weight,price); 	//call overloading method with 2 parameter	
+		Benefits();			//call overriding method
 		
 	}	
 	
