@@ -28,7 +28,7 @@ public class Strawberry extends Fruits { //sub class of Fruits
 		else {
 			totalPrice(discount,price); //call overloading method with 2 parameter
 			
-			System.out.println("Weight MORE than 5, Total price: RM" + totalPrice(discount,price));
+			System.out.println("Weight MORE than 5 KG, Total price: RM" + totalPrice(discount,price));
 		}
 		
 	}	
