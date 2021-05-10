@@ -3,7 +3,7 @@ package fruitAbstract;
  class PriceAbove1kg implements NewPrice {
 	
 	public double newPrice() {
-		return 15.00;
+		return 10.00;
 	}
  }
  class PriceAbove5kg implements NewPrice {
