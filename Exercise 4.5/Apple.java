@@ -16,18 +16,20 @@ public class Apple extends Fruits { //sub class
 			System.out.println("Weight LESS than 1 KG, Total price: RM" + totalPrice());
 		}
 		else if (weight>1&&weight<5) {
-			price=10.00;
+			NewPrice na= new PriceAbove1kg();
+			price= na.newPrice();
 			totalPrice(price);//call overloading method with 1 parameter
 			System.out.println("Weight MORE than 1 KG AND LESS than 5 KG, Total price: RM" + totalPrice(price));
 		
 		} 
 		else if (weight>5) {
-			
+			NewPrice ng= new PriceAbove5kg();
+			price= ng.newPrice();
 			switch(name) {
 			
 			
 			case "Apple":{
-				NewPrice na= new NewPriceApple();
+				NewPrice na= new PriceAbove5kg();
 				price= na.newPrice();
 				Discount dc= new DiscountApple();
 				System.out.println("Weight MORE than 5, Discount " + dc.discountRate()*100+" %");
@@ -36,8 +38,7 @@ public class Apple extends Fruits { //sub class
 			} break;
 			
 			case "Green Apple":{
-				NewPrice ng= new NewPriceGreenApple();
-				price= ng.newPrice();
+				
 				Discount dd= new DiscountGreenApple();
 				System.out.println("Weight MORE than 5, Discount " + dd.discountRate()*100+" %");
 				discount=dd.discountRate();
@@ -45,13 +46,13 @@ public class Apple extends Fruits { //sub class
 			}break;
 			
 			case "Red Apple":{
-				NewPrice nr= new NewPriceRedApple();
-				price= nr.newPrice();
+			
 				Discount de= new DiscountGreenApple();
 				System.out.println("Weight MORE than 5, Discount " + de.discountRate()*100+" %");
 				discount=de.discountRate();
 				
 			}break;
+				
 			
 			default :{
 				System.out.println("Invalid Discount.");
