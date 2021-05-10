@@ -16,14 +16,14 @@ public class Apple extends Fruits { //sub class
 			System.out.println("Weight LESS than 1 KG, Total price: RM" + totalPrice());
 		}
 		else if (weight>1&&weight<5) {
-			price=15.00;
+			price=15.00; // weight more between 1kg and 5kg, price is RM15
 			totalPrice(price);//call overloading method with 1 parameter
 			System.out.println("Weight MORE than 1 KG AND LESS than 5 KG, Total price: RM" + totalPrice(price));
 		
 		} 
 		else if (weight>5) {
 			
-			price= 12.00;
+			price= 12.00;	// weight more between 1kg and 5kg, price is RM12
 			switch(name) {
 			
 			
