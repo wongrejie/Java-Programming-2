@@ -8,8 +8,8 @@ package fruitAbstract;
  }
  class NewPriceGreenApple implements NewPrice {
 		
-		public double newPrice() {
-			return 12.00;
+	public double newPrice() {
+		return 12.00;
 		}
 }
 
