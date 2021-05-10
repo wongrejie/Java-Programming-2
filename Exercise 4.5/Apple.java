@@ -27,25 +27,25 @@ public class Apple extends Fruits { //sub class
 			switch(name) {
 			
 			
-			case "Apple":{
+			case "Apple":{ //if Apple, discount 15%
 				
-				Discount dc= new DiscountApple();
+				Discount dc= new DiscountApple(); //create an object for Apple discount
 				System.out.println("Weight MORE than 5, Discount " + dc.discountRate()*100+" %");
 				discount=dc.discountRate();
 				
 			} break;
 			
-			case "Green Apple":{
+			case "Green Apple":{	//if Green Apple, discount 20%
 				
-				Discount dd= new DiscountGreenApple();
+				Discount dd= new DiscountGreenApple();//create an object for Green Apple discount
 				System.out.println("Weight MORE than 5, Discount " + dd.discountRate()*100+" %");
 				discount=dd.discountRate();
 				
 			}break;
 			
-			case "Red Apple":{
+			case "Red Apple":{	//if Red Apple, discount 30%
 			
-				Discount de= new DiscountRedApple();
+				Discount de= new DiscountRedApple();//create an object for Red Apple discount
 				System.out.println("Weight MORE than 5, Discount " + de.discountRate()*100+" %");
 				discount=de.discountRate();
 				
