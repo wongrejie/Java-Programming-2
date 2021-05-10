@@ -15,11 +15,11 @@ class DiscountGreenApple implements Discount {
 		public double discountRate() {
 		return 0.20;
 	}
+}
 //Discount for Red Apple
 class DiscountRedApple implements Discount {
 		//method implementation
 		public double discountRate() {
 			return 0.30;
 		}
-}
 }
