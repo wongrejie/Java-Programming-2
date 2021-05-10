@@ -47,7 +47,7 @@ public class Apple extends Fruits { //sub class
 			
 			case "Red Apple":{
 			
-				Discount de= new DiscountGreenApple();
+				Discount de= new DiscountRedApple();
 				System.out.println("Weight MORE than 5, Discount " + de.discountRate()*100+" %");
 				discount=de.discountRate();
 				
