@@ -27,7 +27,8 @@ public class Apple extends Fruits { //sub class
 			
 			
 			case "Apple":{
-				price= 15.00;
+				NewPrice na= new NewPriceApple();
+				price= na.newPrice();
 				Discount dc= new DiscountApple();
 				System.out.println("Weight MORE than 5, Discount " + dc.discountRate()*100+" %");
 				discount=dc.discountRate();
@@ -35,7 +36,8 @@ public class Apple extends Fruits { //sub class
 			} break;
 			
 			case "Green Apple":{
-				price= 12.00;
+				NewPrice ng= new NewPriceGreenApple();
+				price= ng.newPrice();
 				Discount dd= new DiscountGreenApple();
 				System.out.println("Weight MORE than 5, Discount " + dd.discountRate()*100+" %");
 				discount=dd.discountRate();
@@ -43,7 +45,8 @@ public class Apple extends Fruits { //sub class
 			}break;
 			
 			case "Red Apple":{
-				price= 13.00;
+				NewPrice nr= new NewPriceRedApple();
+				price= nr.newPrice();
 				Discount de= new DiscountGreenApple();
 				System.out.println("Weight MORE than 5, Discount " + de.discountRate()*100+" %");
 				discount=de.discountRate();
