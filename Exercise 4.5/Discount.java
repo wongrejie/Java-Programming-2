@@ -1,6 +1,6 @@
 package fruitAbstract;
 
-interface Discount {
+interface Discount { //method with no body
 		double discountRate();
 }
 
