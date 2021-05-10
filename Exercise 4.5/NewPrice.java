@@ -1,5 +1,5 @@
 package fruitAbstract;
 
-interface NewPrice{
+interface NewPrice{ //method with no body
 	double newPrice();
 }
