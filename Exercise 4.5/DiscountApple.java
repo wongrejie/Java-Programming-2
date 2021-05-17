@@ -23,3 +23,21 @@ class DiscountRedApple implements Discount {
 			return 0.30;
 		}
 }
+//Discount for Strawberry
+class DiscountStrawberry implements Discount {
+
+	public double discountRate() {
+		return 0.10;
+	}
+	
+
+}
+//Discount for Watermelon
+class DiscountWatermelon implements Discount {
+
+	public double discountRate() {
+		return 0.25;
+	}
+	
+
+}
