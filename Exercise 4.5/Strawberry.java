@@ -54,7 +54,7 @@ public class Strawberry extends Fruits { //sub class of Fruits
 }
 	
 	public double totalPrice(double d,double p) {	 //overloading method with 2 parameter
-		return price-(price*d);
+		return (price*weight)-(price*weight*discount);
 		
 }
 	
