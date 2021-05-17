@@ -25,7 +25,7 @@ class DiscountRedApple implements Discount {
 }
 //Discount for Strawberry
 class DiscountStrawberry implements Discount {
-
+		//method implementation
 	public double discountRate() {
 		return 0.10;
 	}
@@ -34,7 +34,7 @@ class DiscountStrawberry implements Discount {
 }
 //Discount for Watermelon
 class DiscountWatermelon implements Discount {
-
+		//method implementation
 	public double discountRate() {
 		return 0.25;
 	}
