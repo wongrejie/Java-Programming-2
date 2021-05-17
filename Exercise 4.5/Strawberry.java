@@ -19,14 +19,14 @@ public class Strawberry extends Fruits { //sub class of Fruits
 			System.out.println("Weight LESS than 1 KG, Total price: RM" + totalPrice());
 		}
 		else if (weight>1&&weight<5) {
-			price=10.00;
+			price=40.00;
 			totalPrice(price);//call overloading method with 1 parameter
 			
 			System.out.println("Weight MORE than 1 KG AND LESS than 5 KG, Total price: RM" + totalPrice(price));
 		
 		} 
 		else {
-			price= 40.00;
+			price= 90.00;
 			Discount ds= new DiscountStrawberry();
 			System.out.println("Weight MORE than 5, Discount " + ds.discountRate()*100+" %");
 			discount=ds.discountRate();
