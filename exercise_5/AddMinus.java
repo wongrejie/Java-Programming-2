@@ -69,7 +69,7 @@ public class AddMinus {
 			}
 		});
 		AddButton.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		AddButton.setBounds(101, 113, 135, 35);
+		AddButton.setBounds(101, 113, 135, 49);
 		frame.getContentPane().add(AddButton);
 		
 		JButton MinusButton = new JButton("Minus");
@@ -90,17 +90,17 @@ public class AddMinus {
 			}
 		});
 		MinusButton.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		MinusButton.setBounds(326, 113, 135, 35);
+		MinusButton.setBounds(326, 113, 135, 49);
 		frame.getContentPane().add(MinusButton);
 		
 		IntTextField = new JTextField();
-		IntTextField.setBounds(101, 65, 135, 35);
+		IntTextField.setBounds(101, 57, 135, 43);
 		frame.getContentPane().add(IntTextField);
 		IntTextField.setColumns(10);
 		
 		IntTextField_1 = new JTextField();
 		IntTextField_1.setColumns(10);
-		IntTextField_1.setBounds(326, 65, 135, 35);
+		IntTextField_1.setBounds(326, 57, 135, 43);
 		frame.getContentPane().add(IntTextField_1);
 		
 		JLabel AnswerLabel = new JLabel("Answer :");
@@ -111,7 +111,7 @@ public class AddMinus {
 		
 		AnswertextField = new JTextField();
 		AnswertextField.setColumns(10);
-		AnswertextField.setBounds(223, 216, 135, 35);
+		AnswertextField.setBounds(222, 212, 135, 43);
 		frame.getContentPane().add(AnswertextField);
 	}
 }
