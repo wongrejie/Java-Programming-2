@@ -22,7 +22,7 @@ class PriceRate implements Payment { //implementation of interface Payment
 		return fee*(1-discount);
 	}
 
-	//calculate price with discount base on day
+	//calculate price with discount base on day, discount price for weekend
 	public double totalPrice(String day, double discount) { //overloading with 2 argument
 		if (day.equals("friday")||day.equals("saturday")) {
 			return totalPrice(discount);
