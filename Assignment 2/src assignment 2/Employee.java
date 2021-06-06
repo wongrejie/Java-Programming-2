@@ -30,7 +30,7 @@ public class Employee extends GamingCenter{ //2.1 Inheritance, Employee extends 
 
 	}
 	
-	public Employee(String n, String l, String c, String o ,int noEm,String department,int id,String EmployeeName, double salary) { //1.4 constructor with 4 argument
+	public Employee(String n, String l, String c, String o ,int noEm,String department,int id,String EmployeeName, double salary) { 
 		super(n,l,c,o,noEm);
 		
 		this.department=department;
