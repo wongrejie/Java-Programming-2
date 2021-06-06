@@ -38,7 +38,7 @@ public class Participant extends EventDetails{ // 2.1 Inheritance, Participant e
 
 	}
 	public Participant(String n, String l, String c, String o, int noEm, String eventName, String category, double registrationFee, 
-			String name, String gender,int age, String teamName, int numOfParticipant) { //1.4 constructor with no argument
+			String name, String gender,int age, String teamName, int numOfParticipant) { 
 		
 		super(n,l,c,o,noEm,eventName,category,registrationFee);
 		
