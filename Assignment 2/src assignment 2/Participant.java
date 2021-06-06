@@ -1,7 +1,7 @@
 package gaming;
 
 import java.text.DecimalFormat;
-import java.util.*; //1.2 pre-define class for import scanner class
+import java.util.*; 
 
 public class Participant extends EventDetails{ // 2.1 Inheritance, Participant extends EventDetails
 	
