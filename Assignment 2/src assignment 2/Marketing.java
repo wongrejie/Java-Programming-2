@@ -1,15 +1,15 @@
 package gaming;
 
 import java.text.DecimalFormat;
-import java.util.*; //1.2 pre-define class for import scanner class
+import java.util.*; 
 
-public class Marketing extends EventDetails { // 1.3 user define class for Marketing
+public class Marketing extends EventDetails { // 2.1 inheritance, Marketing extends from EventDetails
 
 	static DecimalFormat df = new DecimalFormat("#.##");
 
 	Scanner sc = new Scanner(System.in);
 
-	Discount dw = new WeekendDiscountRate();
+	Discount dw = new WeekendDiscountRate();  
 	Payment wp = new PriceRate();
 
 	private double prize;
@@ -17,7 +17,7 @@ public class Marketing extends EventDetails { // 1.3 user define class for Marke
 
 	
 	public Marketing(String n, String l, String c, String o, int noEm, String eventName, String category,
-			double registrationFee, double prize, String day) { // 1.4 constructor with no argument
+			double registrationFee, double prize, String day) { 
 		super(n, l, c, o, noEm, eventName, category, registrationFee);
 		this.prize = prize;
 		this.day = day;
