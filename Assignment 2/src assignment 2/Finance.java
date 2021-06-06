@@ -74,20 +74,23 @@ public class Finance extends Employee{ // 2.1 inheritance, Finance extends emplo
 	public double getAdvertisementFee() { 
 		return advertisementFee;
 	}
-
-	public double totalSalary() { 
+		
+	public double totalSalary() { 	//calculate the total salary for employee from super class
 		return super.getNoOfEmployee()*super.getSalary();
 	}
 	
-	public double totalIncome() { 
+	public double totalIncome() { 	/*calculate the total income which is total registration fees that participant paid,
+					total number of participant paid in weekdays plus total number of participant paid in weekend with discount 
+					are our income*/
+		
 		return (pQWeekdays*p.totalPrice())+(pQWeekend*p.totalPrice(d.discountRate()));
 	}
 	
-	public double totalBudget() { 
+	public double totalBudget() {  //calculate the total budget of the event
 		return totalSalary()+getPrize()+getUtilityFee()+getAdvertisementFee();
 	}
 	
-	public double calcNetProfit() { 
+	public double calcNetProfit() {  //calculate the net profit of the event
 		return totalIncome()-totalBudget();
 	}
 	
