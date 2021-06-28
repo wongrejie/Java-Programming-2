@@ -294,15 +294,28 @@ public class Finance extends JFrame {
 				try { // 2.2 Exception Handling
 				double registerFee = 0;
 				 Discount dd=new WeekendDiscountRate();
-					
-				if(comboBox.getSelectedItem().equals("FPS Game")) {
-					registerFee=95;
-				} if(comboBox.getSelectedItem().equals("MOBA Game")) {
-					registerFee=90;
-
-				} if(comboBox.getSelectedItem().equals("RTS Game")) {
-					registerFee=85;
+				ParticipantRegistration pr=new ParticipantRegistration();
+				
+				if(comboBox.getSelectedItem().equals("FPS Game")) 
+					if (pr.getFpsFee()==null) {
+						registerFee=95;
+					}
+					else {registerFee=Double.parseDouble(pr.getFpsFee());
 				}
+					
+					if(comboBox.getSelectedItem().equals("MOBA Game")) 
+					if (pr.getMobaFee()==null) {
+						registerFee=90;
+					}
+					else {registerFee=Double.parseDouble(pr.getMobaFee());
+					}
+				
+				 if(comboBox.getSelectedItem().equals("RTS Game")) 
+					if (pr.getRtsFee()==null) {
+						registerFee=85;
+					}else {registerFee=Double.parseDouble(pr.getRtsFee());
+					}
+				
 				int participantWd= Integer.parseInt(QweekdaysTextField.getText());
 				int participantWk= Integer.parseInt(QWeekendTextField.getText());
 				
