@@ -36,12 +36,10 @@ public class ParticipantRegistration extends JFrame {
 
 	private JPanel contentPane;
 	JTable ParticipantTable;
-	private JTable model;
 	JTextField name;
 	JTextField TeamName;
 	JTextField participantNum;
 	JFrame frame;
-	private double total = 0;
 	private JTextField totalPricetextField;
 	private static String fpsFee;
 	private static String mobaFee;
@@ -73,6 +71,20 @@ public class ParticipantRegistration extends JFrame {
 	public String getRtsFee() {
 		return rtsFee;
 	}
+
+	
+	public double totalPrice(double registerFee) { //overloading with 1 argument
+		double fee=registerFee;
+		return fee;
+	}
+	//calculate price with discount
+	public double totalPrice(double registerFee,double discount) { //overloading with 2 argument
+		double fee=registerFee;
+		
+		 fee=fee*(1-discount);
+		return fee;
+	}
+
 
 	/**
 	 * Create the frame.
@@ -329,19 +341,19 @@ public class ParticipantRegistration extends JFrame {
 						double answer;
 						double registrationFee = 0;
 						if (gameCtgr.getSelectedItem().equals("Fps (Counter Strike :GO)")) {
-						registrationFee = 95;
+						registrationFee = totalPrice(95);
 						}
 						if (gameCtgr.getSelectedItem().equals("Moba (League of Legends)")) {
-							registrationFee = 90;
+							registrationFee = totalPrice(90);
 							}
 						if (gameCtgr.getSelectedItem().equals("Rts (Clash Royale)")) {
-							registrationFee = 85;
+							registrationFee = totalPrice(85);
 							}
 						participantNumber = Integer.parseInt(participantNum.getText());
 						 if (registerDay.getSelectedItem().equals("Friday ~ Saturday")) {
 							 
 							 Discount ds=new WeekendDiscountRate();
-							registrationFee = registrationFee*(1-ds.discountRate());
+							registrationFee = totalPrice(registrationFee,ds.discountRate());
 
 						}
 						answer = participantNumber * registrationFee;
