@@ -43,7 +43,9 @@ public class ParticipantRegistration extends JFrame {
 	JFrame frame;
 	private double total = 0;
 	private JTextField totalPricetextField;
-	private String fpsFee,mobaFee,rtsFee;
+	private static String fpsFee;
+	private static String mobaFee;
+	private static String rtsFee;
 	/**
 	 * Launch the application.
 	 */
@@ -61,15 +63,15 @@ public class ParticipantRegistration extends JFrame {
 	}
 	
 	public String getFpsFee() {
-		return this.fpsFee;
+		return fpsFee;
 	} 
 	
 	public String getMobaFee() {
-		return this.mobaFee;
+		return mobaFee;
 	}
 	
 	public String getRtsFee() {
-		return this.rtsFee;
+		return rtsFee;
 	}
 
 	/**
@@ -387,9 +389,9 @@ public class ParticipantRegistration extends JFrame {
 	}
 	
 	public ParticipantRegistration(String fpsFee,String mobaFee,String rtsFee) {
-		this.fpsFee=fpsFee;
-		this.mobaFee=mobaFee;
-		this.rtsFee=rtsFee;
+		ParticipantRegistration.fpsFee=fpsFee;
+		ParticipantRegistration.mobaFee=mobaFee;
+		ParticipantRegistration.rtsFee=rtsFee;
 		
 		setTitle("Ultimate Gamer Center System");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -560,19 +562,20 @@ public class ParticipantRegistration extends JFrame {
 		panel_1_1_1_1.add(btnDelete);
 		btnDelete.setFont(new Font("Times New Roman", Font.PLAIN, 25));
 
-		JButton btnExit = new JButton("Exit");
-		btnExit.addActionListener(new ActionListener() {
+		JButton btnLogOut = new JButton("Log Out");
+		btnLogOut.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				frame = new JFrame();
-				if (JOptionPane.showConfirmDialog(frame, "Confirm if you want to exit",
+				GamingCenter frame = new GamingCenter();
+				if (JOptionPane.showConfirmDialog(frame, "Confirm if you want to Log Out",
 						"Participant Registration System", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_NO_OPTION) {
-					System.exit(0);
+					frame.setVisible(true);
+					dispose();
 				}
 			}
 		});
-		btnExit.setBounds(789, 18, 129, 35);
-		panel_1_1_1_1.add(btnExit);
-		btnExit.setFont(new Font("Times New Roman", Font.PLAIN, 25));
+		btnLogOut.setBounds(789, 18, 129, 35);
+		panel_1_1_1_1.add(btnLogOut);
+		btnLogOut.setFont(new Font("Times New Roman", Font.PLAIN, 25));
 		
 		JButton btnUpdate = new JButton("Update");
 		btnUpdate.addActionListener(new ActionListener() {
