@@ -41,9 +41,9 @@ public class ParticipantRegistration extends JFrame {
 	JTextField participantNum;
 	JFrame frame;
 	private JTextField totalPricetextField;
-	private static String fpsFee;
-	private static String mobaFee;
-	private static String rtsFee;
+	private  String fpsFee;
+	private  String mobaFee;
+	private  String rtsFee;
 	/**
 	 * Launch the application.
 	 */
@@ -401,9 +401,9 @@ public class ParticipantRegistration extends JFrame {
 	}
 	
 	public ParticipantRegistration(String fpsFee,String mobaFee,String rtsFee) {
-		ParticipantRegistration.fpsFee=fpsFee;
-		ParticipantRegistration.mobaFee=mobaFee;
-		ParticipantRegistration.rtsFee=rtsFee;
+		this.fpsFee=fpsFee;
+		this.mobaFee=mobaFee;
+		this.rtsFee=rtsFee;
 		
 		setTitle("Ultimate Gamer Center System");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
